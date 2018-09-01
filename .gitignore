@@ -1,0 +1,9 @@
+/.idea
+node_modules/
+public/*
+.env
+*lock.json
+data
+*.lock
+/application.log
+server.pid

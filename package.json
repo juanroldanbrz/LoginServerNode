@@ -1,0 +1,36 @@
+{
+  "name": "LoginAPI",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node Server.js $ENV"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.259.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.17.1",
+    "config": "^1.26.2",
+    "connect-multiparty": "^2.0.0",
+    "debug": "~2.6.3",
+    "dotenv": "^4.0.0",
+    "express": "~4.15.2",
+    "express-fileupload": "^0.4.0",
+    "fs-extra": "^6.0.1",
+    "js-yaml": "^3.9.1",
+    "jwt-simple": "^0.5.1",
+    "log4js": "^2.3.3",
+    "mongoose": "^5.1.0",
+    "morgan": "~1.8.1",
+    "node-yaml-config": "0.0.4",
+    "npid": "^0.4.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-instagram-token": "^2.3.0",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "passport-oauth2": "^1.4.0",
+    "request-promise": "^4.2.2",
+    "uuid": "^3.2.1"
+  }
+}

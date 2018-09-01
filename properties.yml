@@ -1,0 +1,31 @@
+facebook:
+  clientId: your_api_client_Id
+  clientSecret: your_api_client_secret
+  callbackURL: http://localhost:8080/auth/facebook/callback
+
+google:
+  clientId: your_api_client_Id
+  clientSecret: your_api_client_secret
+  callbackURL: http://localhost:8080/auth/google/callback
+
+instagram:
+  clientId: your_api_client_Id
+  clientSecret: your_api_client_secret
+  callbackURL: http://localhost:8080/auth/instagram/callback
+
+loginToken:
+  redirectUrl: localhost:8080
+  headerName: TestHeader
+  secret: 12!mxpa9098ja@al
+
+mongo:
+  uri: mongodb://mongo:27017/LoginServer
+
+server:
+  interface: localhost
+  port: 8080
+
+aws:
+  userId: the aws userId
+  accessKey: the aws accessKey
+  bucket: the bucket to store
